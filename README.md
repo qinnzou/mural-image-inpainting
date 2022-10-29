@@ -18,7 +18,7 @@ Mural image inpainting refers to repairing the damage or missing areas in a mura
 ### Requirments
 - Python 3.7
 - PyTorch 1.6
-- We run the codes on NVIDIA GPU RTX2080ti wiht CUDA 10.2 and cuDNN 7.6.5
+- We run the codes on NVIDIA GPU RTX2080ti with CUDA 10.2 and cuDNN 7.6.5
 
 ## Preparation:
 ### Data Preparation
