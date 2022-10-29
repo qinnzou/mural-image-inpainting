@@ -1,20 +1,15 @@
-# Line Drawing Guided Progressive Inpainting of Mural Damages
+# Line Drawing Guided Progressive Inpainting of Mural Damages - MuralNet
 
-This is the source code of 'Line Drawing Guided Progressive Inpainting of Mural Damages'. We provide the codes, the partitioning of the datasets, and the pretrained models on MuralDataset.
+This is the source code of 'Line Drawing Guided Progressive Inpainting of Mural Damages'. We provide the codes, the partitioning of the datasets, and the pretrained models on MuralDataset. For convienence of introduction, the proposed network is named as MuralNet.
 
 -Mural image inpainting, -Mural damage repair, -Line drawing guided image inpainting
-
-
-## MuralNet: Line Drawing Guided Progressive Inpainting of Mural Damages
-We released the codes of this work, and named this method as MuralNet.
-
 
 
 # Set up
 ##Requirments
 - Python 3.7
 - PyTorch 1.6
-- NVIDIA GPU RTX2080ti + CUDA 10.2 cuDNN 7.6.5
+- We run the codes on NVIDIA GPU RTX2080ti wiht CUDA 10.2 and cuDNN 7.6.5
 
 ## Preparation
 ### Data Preparation
