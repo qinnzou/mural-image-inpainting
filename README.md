@@ -24,8 +24,7 @@ Our model is pretrained on DhMural1714, the pretrained model can be obtained at 
 ## Download:
 ### DhMural1714 Dataset
 
-CRKWH100 dataset: https://1drv.ms 
-CRKWH100 GT: https://1drv.ms
+dataset: https://1drv.ms 
 
 You can also download the dataset from  
 Link: https://pan.baidu.com/s/13dkh4zX3C4_z2W3Kigg6uQ 
