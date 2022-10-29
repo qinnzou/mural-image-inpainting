@@ -8,10 +8,10 @@ Mural image inpainting refers to repairing the damage or missing areas in a mura
 -Mural image inpainting, -Mural damage repair, -Line drawing guided image inpainting
 
 ## Mural Inpainting with and without line drawings
-![image](https://github.com/qinnzou/mural-image-inpainting/other/intro.jpg)
+![image](https://github.com/qinnzou/mural-image-inpainting/blob/main/other/intro2.jpg)
 
 ## Network Architecture
-![image](https://github.com/qinnzou/mural-image-inpainting/other/net.jpg)
+![image](https://github.com/qinnzou/mural-image-inpainting/blob/main/other/net.jpg)
 
 
 ## Set up:
