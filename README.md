@@ -24,8 +24,8 @@ Mural image inpainting refers to repairing the damage or missing areas in a mura
 ### Data Preparation
 ![image](https://github.com/qinnzou/mural-image-inpainting/blob/main/other/examples.jpg)
 We collected a mural dataset DhMural1714 to train and test the MuralNet. You can download them and put them into "./dataset/".
+
 ### Pretrained Models
-![image](https://github.com/qinnzou/mural-image-inpainting/blob/main/other/results.jpg)
 Our model is pretrained on DhMural1714, the pretrained model can be obtained at `./checkpoints/InpaintingModel_gen.pth` and `./checkpoints/InpaintingModel_dis.pth`
 
 
@@ -62,6 +62,8 @@ We provide several example images in `checkpoints/test` for testing, just run th
 python test.py
 ```
 Directory of testing images can be modified in `main.py`, the network requires the input images, the corresponding line drawings, and the masks for inpainting.
+
+![image](https://github.com/qinnzou/mural-image-inpainting/blob/main/other/results.jpg)
 
 ## Evaluation:
 To evaluate the performance, run the code:
