@@ -72,7 +72,7 @@ python eval_mix.py
 ```
 
 ## Acknowledgment:
-We implement our method by referring to [EdgeConnect](https://github.com/knazeri/edge-connect). We thank the authors of the EdgeConnect paper. If you use this code, you should also cite the EdgeConnect paper.
+We implement our method by referring to [EdgeConnect](https://github.com/knazeri/edge-connect). We thank the authors of the EdgeConnect paper. If you use this code in your work, you should also cite the EdgeConnect paper.
 ```bash
 @inproceedings{nazeri2019edgeconnect,
   title={EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning},
