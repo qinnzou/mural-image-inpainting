@@ -31,6 +31,7 @@ Our model is pretrained on DhMural1714, the pretrained model can be obtained at 
 
 ## Download:
 ### DhMural1714 Dataset
+In our research, we collected some replicas of murals by artists in addition to the real mural paintings. The real mural paintings are captured by digital cameras, while the replicas of murals are obtained by scanning the album. A total of 1,714 images are collected. Among them, there are 525 real murals and 1,189 replicas.
 
 dataset: https://1drv.ms 
 
