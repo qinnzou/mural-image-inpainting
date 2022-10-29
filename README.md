@@ -1,22 +1,27 @@
 # Line Drawing Guided Progressive Inpainting of Mural Damages
-Mural image inpainting, Mural damage repair, Line drawing guided image inpainting
+
+This is the source code of 'Line Drawing Guided Progressive Inpainting of Mural Damages'. We provide the codes, the partitioning of the datasets, and the pretrained models on MuralDataset.
+
+-Mural image inpainting, -Mural damage repair, -Line drawing guided image inpainting
 
 
 ## MuralNet: Line Drawing Guided Progressive Inpainting of Mural Damages
 We released the codes of this work, and named this method as MuralNet.
 
-## Prerequisites
+
+
+# Set up
+##Requirments
 - Python 3.7
 - PyTorch 1.6
-- NVIDIA GPU + CUDA cuDNN
+- NVIDIA GPU RTX2080ti + CUDA 10.2 cuDNN 7.6.5
 
-
-## Dataset
-### Images
-We built a mural dataset for training and testing MuralNet.
-
-## Getting Started
-### Training
+## Preparation
+### Data Preparation
+We built a mural dataset for training and testing MuralNet. You can download them and put them into "./dataset/".
+### Pretrained Models
+Our model is pretrained on MuralDataset, the pretrained model can be obtained at `./checkpoints/InpaintingModel_gen.pth` and `./checkpoints/InpaintingModel_dis.pth`
+## Training
 
 MuralNet is trained in two stages: 1) training the coarse network, 2) training the whole model. 
 
@@ -27,16 +32,21 @@ Run the code for training:
 python train.py
 ```
 
-### Testing
-We provide 10 images in `checkpoints/test` for testing, run the code:
+## Test
+We provide several example images in `checkpoints/test` for testing, just run the code:
 ```bash
 python test.py
 ```
 Directory of testing images can be modified in `main.py`, the network requires images, corresponding line drawings and mask for inpainting.
 
-## Acknowledgment
-Our implementation is mainly based on the code framework of [edge-connect](https://github.com/knazeri/edge-connect). Thanks for the authors of this paper as listed below.
+## Evaluate
+To evaluate the performance, run the code:
+```bash
+python metrics/eval_mix.py
+```
 
+## Acknowledgment
+Our implementation is mainly based on [edge-connect](https://github.com/knazeri/edge-connect). Thanks for the authors.
 ```bash
 @inproceedings{nazeri2019edgeconnect,
   title={EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning},
