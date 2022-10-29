@@ -13,28 +13,26 @@ This is the source code of 'Line Drawing Guided Progressive Inpainting of Mural 
 
 ## Preparation
 ### Data Preparation
-We built a mural dataset for training and testing MuralNet. You can download them and put them into "./dataset/".
+We collected a mural dataset DhMural1714 to train and test the MuralNet. You can download them and put them into "./dataset/".
 ### Pretrained Models
-Our model is pretrained on MuralDataset, the pretrained model can be obtained at `./checkpoints/InpaintingModel_gen.pth` and `./checkpoints/InpaintingModel_dis.pth`
+Our model is pretrained on DhMural1714, the pretrained model can be obtained at `./checkpoints/InpaintingModel_gen.pth` and `./checkpoints/InpaintingModel_dis.pth`
 
 
 ## Download:
-### Mural Dataset
-```
+### DhMural1714 Dataset
 
-CRKWH100 dataset: https://1drv.ms/f/s!AittnGm6vRKLtylBkxVXw5arGn6R 
-CRKWH100 GT: https://1drv.ms/f/s!AittnGm6vRKLglyfiCw_C6BDeFsP
+CRKWH100 dataset: https://1drv.ms 
+CRKWH100 GT: https://1drv.ms
 
 You can also download the dataset from  
-link：https://pan.baidu.com/s/1PWiBzoJlc8qC8ffZu2Vb8w   
-passcodes：zfoo
+Link: https://pan.baidu.com/s/13dkh4zX3C4_z2W3Kigg6uQ 
+passcodes: 0vlr
 
-```
 
 ### Pretrained Models
 You can also download the pretrained models from  
-link：https://pan.baidu.com/s/1PWiBzoJlc8qC8ffZu2Vb8w   
-passcodes：zfoo
+link: https://pan.baidu.com/s/1EKvTAHyOaMbL9s7aqdZEfw 
+passcodes: vg5v
 
 
 ## Training
