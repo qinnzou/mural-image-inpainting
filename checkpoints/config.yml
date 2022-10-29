@@ -1,0 +1,46 @@
+MODE: 1             # 1: train, 2: test, 3: eval
+NMS: 0              # 0: no non-max-suppression, 1: applies non-max-suppression on the external edges by multiplying by Canny
+SEED: 10            # random seed
+GPU: [0]           # list of gpu ids
+DEBUG: 0            # turns on debugging mode
+VERBOSE: 0          # turns on verbose mode in the output console
+MODELNAME: muralinpainting
+
+TRAIN_FLIST: /public/home/lucy/mural/dataset/flist/train/images.flist
+VAL_FLIST: /public/home/lucy/mural/dataset/flist/val/images.flist
+TEST_FLIST: /public/home/lucy/mural/dataset/flist/val/images.flist
+
+TRAIN_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/train/edges.flist
+VAL_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/val/edges.flist
+TEST_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/val/edges.flist
+
+TRAIN_MASK_FLIST: /public/home/lucy/mural/dataset/flist/train/masks.flist
+VAL_MASK_FLIST: /public/home/lucy/mural/dataset/flist/val/masks.flist
+TEST_MASK_FLIST: /public/home/lucy/mural/dataset/flist/val/masks.flist
+
+LR: 0.0001                    # learning rate
+D2G_LR: 0.1                   # discriminator/generator learning rate ratio
+BETA1: 0.0                    # adam optimizer beta1
+BETA2: 0.9                    # adam optimizer beta2
+BATCH_SIZE: 8                 # input batch size for training
+INPUT_SIZE: 512               # input image size for training 0 for original size
+SIGMA: 2                      # standard deviation of the Gaussian filter used in Canny edge detector (0: random, -1: no edge)
+MAX_ITERS: 100000             # maximum number of iterations to train the model
+COARSE_ITERS: 40000           # number of iterations to train the coarse stage
+
+EDGE_THRESHOLD: 0.5           # edge detection threshold
+L1_LOSS_WEIGHT: 1             # l1 loss weight1
+FM_LOSS_WEIGHT: 10            # feature-matching loss weight
+STYLE_LOSS_WEIGHT: 250        # style loss weight250
+CONTENT_LOSS_WEIGHT: 0.1      # perceptual loss weight0.1
+HIST_LOSS_WEIGHT: 0.0005       # smooth loss weight
+INPAINT_ADV_LOSS_WEIGHT: 0.1  # adversarial loss weight0.1
+
+GAN_LOSS: nsgan               # nsgan | lsgan | hinge
+GAN_POOL_SIZE: 0              # fake images pool size
+
+SAVE_INTERVAL: 200           # how many iterations to wait before saving model (0: never)
+SAMPLE_INTERVAL: 200         # how many iterations to wait before sampling (0: never)
+SAMPLE_SIZE: 4               # number of images to sample
+EVAL_INTERVAL: 0              # how many iterations to wait before model evaluation (0: never)
+LOG_INTERVAL: 100              # how many iterations to wait before logging training status (0: never)
