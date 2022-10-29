@@ -39,7 +39,7 @@ passcodes: vg5v
 
 MuralNet is trained on two stages: 1) training the coarse network, 2) training the whole model. 
 
-To train the model, modify the training parameters in `checkpoints/config.yml`, you can refer to [EdgeConnect](https://github.com/knazeri/edge-connect) for details.
+To train the model, modify the training parameters in `checkpoints/config.yml`.
 
 Run the code for training:
 ```bash
@@ -60,7 +60,7 @@ python eval_mix.py
 ```
 
 ## Acknowledgment
-Our implementation is mainly based on [EdgeConnect](https://github.com/knazeri/edge-connect). Thanks for the authors of the EdgeConnect paper.
+Our implementation is mainly based on [EdgeConnect](https://github.com/knazeri/edge-connect). We thank the authors of the EdgeConnect paper.
 ```bash
 @inproceedings{nazeri2019edgeconnect,
   title={EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning},
