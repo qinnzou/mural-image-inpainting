@@ -1,4 +1,4 @@
-# this code is from EdgeConnect
+# this code is released by https://
 # Nazeri, K., Ng, E., Joseph, T., Qureshi, F. Z., & Ebrahimi, M. (2019). Edgeconnect: Generative image inpainting with adversarial edge learning. arXiv preprint arXiv:1901.00212.
 # 
 
