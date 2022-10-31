@@ -1,3 +1,7 @@
+# this code is from https://github.com/knazeri/edge-connect
+# Nazeri, K., Ng, E., Joseph, T., Qureshi, F. Z., & Ebrahimi, M. (2019). Edgeconnect: Generative image inpainting with adversarial edge learning. arXiv preprint arXiv:1901.00212.
+
+
 import os
 import sys
 import time
