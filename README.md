@@ -40,8 +40,11 @@ Link: https://pan.baidu.com/s/13dkh4zX3C4_z2W3Kigg6uQ
 passcodes: 0vlr
 
 
-### Pretrained Models
-You can also download the pretrained models from  
+### Trained Models
+
+Trained models：https://1drv.ms/u/s!AittnGm6vRKLzXs3EtzJHBXK8U-K?e=waOiUy
+
+You can also download the trained models from  
 link: https://pan.baidu.com/s/1EKvTAHyOaMbL9s7aqdZEfw 
 passcodes: vg5v
 
