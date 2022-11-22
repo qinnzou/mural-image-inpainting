@@ -26,7 +26,7 @@ Mural image inpainting refers to repairing the damage or missing areas in a mura
 We collected a mural dataset DhMural1714 to train and test the MuralNet. You can download them and put them into "./dataset/".
 
 ### Pretrained Models
-Our model is pretrained on DhMural1714, the pretrained model can be obtained at `./checkpoints/InpaintingModel_gen.pth` and `./checkpoints/InpaintingModel_dis.pth`
+Our model is trained on DhMural1714, the trained model can be obtained at `./checkpoints/InpaintingModel_gen.pth` and `./checkpoints/InpaintingModel_dis.pth`
 
 
 ## Download:
@@ -40,9 +40,9 @@ Link: https://pan.baidu.com/s/13dkh4zX3C4_z2W3Kigg6uQ
 passcodes: 0vlr
 
 
-### Trained Models
+### Models
 
-Trained models：https://1drv.ms/u/s!AittnGm6vRKLzXs3EtzJHBXK8U-K?e=waOiUy
+Models：https://1drv.ms/u/s!AittnGm6vRKLzXs3EtzJHBXK8U-K?e=waOiUy
 
 You can also download the trained models from  
 link: https://pan.baidu.com/s/1EKvTAHyOaMbL9s7aqdZEfw 
