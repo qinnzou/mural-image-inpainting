@@ -75,6 +75,18 @@ To evaluate the performance, run the code:
 python eval_mix.py
 ```
 
+## Citation:
+
+```bash
+@article{muralnet2022,
+  title={Line Drawing Guided Progressive Inpainting of Mural Damages},
+  author={Luxi Li and Qin Zou and Fan Zhang and Hongkai Yu and Long Chen and Chengfang Song and Xianfeng Huang and Xiaoguang Wang},
+  journal={Arxiv 2211.06649},
+  pages={1--14},
+  year={2022},
+}
+```
+
 ## Acknowledgment:
 We implement our method by referring to [EdgeConnect](https://github.com/knazeri/edge-connect). We thank the authors of the EdgeConnect paper. If you use this code in your work, you should also cite the EdgeConnect paper.
 ```bash
